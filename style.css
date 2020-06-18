@@ -1,0 +1,140 @@
+
+h1{
+	color: white;
+	font-size: 32px;
+	font-family: 'MuseoModerno', cursive;
+	text-align: center;
+}
+
+h2, h3{
+	font-size: 28px
+	background: black;
+	font-family: arial;
+}
+h4{
+	font-size: 28px
+	color: black;
+	font-family: arial;
+}
+p, ul, ol{
+	font-size: 28px;
+	font-family: 'MuseoModerno', cursive;
+	color: black;
+}
+body{
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	font-family: arial;
+}
+h4,ul,ol{
+	text-align: center;
+}
+img{
+	width:300px;
+	height:300px;
+	object-fit:cover;
+}
+div{
+}
+.divbackground{
+	background:white;
+	display: flex;
+	align-items: center;
+	border: 10px solid #708090;
+    margin: 20px 100px;
+    padding: 30px 70px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px grey;
+}
+.divcadre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 10px solid grey;
+    margin: 20px 100px;
+    padding: 30px 70px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px grey;
+}
+.imageadroite{
+	display:flex;
+	justify-content: center;
+	margin-right: 20px 100px;
+}
+.my-btn{
+  display: inline-block;
+  color: white;
+  background: #1b2735;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b2735;
+  border-radius: 15px;
+  box-shadow: 5px 5px 150px grey;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: white;
+}
+
+.link:hover {
+  color: grey;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+.etienne{
+	display: flex;
+	align-items: flex-end;
+}
+.footer {
+  background: #1b2735;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+.divcentre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 10px ;
+    margin: 20px 100px;
+    padding: 30px 70px;
+    border-radius: 5px;
+}
+.textblanc{
+	color:white;
+}
